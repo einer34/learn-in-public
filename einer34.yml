@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Einer
+    last_name: Mora
+    
+    # Define yourself in 4-5 words
+    motto: Fullstack Developer Python | JS | HTML | Contador Auditor | Data Scientist | Power BI & SQL Expert | Automatización | Control de Gestión | Auditoría de Datos | ERP Integrations | Diplomado en Comercio Exterior
+    
+    # Focus
+    focus: Python/Javascript/HTML | SQL | Power BI
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+Desarrollador Fullstack en Python con fuerte base en SQL Server y automatización de procesos. Especialista en desarrollo de APIs, integración de sistemas ERP (Manager, Random, Flexline, Softland, SAP B1), y visualización de datos con Power BI (DAX, M). Experto en arquitectura de soluciones con Power Platform (Automate, Apps, Query), análisis financiero (EERR, balances, presupuesto, KPI’s) y auditoría de datos. Enfoque en control de gestión, eficiencia operativa y escalabilidad de sistemas.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E35AQFwenc9RWRXgw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1719438062905?e=1752026400&v=beta&t=k_3a4IBLet8rctXmSIINwhrr1irfhGctjcrYm4QISuk
+
+    # Contact Information
+    email: einer34@hotmail.com #optional
+    phone: +56979518072 #optional
+    website: consultorerp.cl #optional
+    linkedin: https://www.linkedin.com/in/einer-mora-ab852294/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/einer34
+    
+    twitter: 'einer34' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Gamer
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Contador Auditor  
+      university: IUTRBF
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2004 - 2007
+      details: |
+
+    - degree: Diplomado en Comex
+      university: Eclass
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2021
+      details: |
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Jefe de Control Interno / Control de Gestión
+      time: 2021 - Present
+      company: Comercial Mundo Transfer SpA
+      # optional
+      company_logo: https://www.mundotransfer.cl/static/version1750028403/frontend/Infortis/ultimo/es_ES/images/logo.png
+      details: |
+      Administrador de SQL SERVER 2022, Plataforma Power BI, Desarrollo IT, 
+
+
+# Your project portfolio
+projects: https://pedroalonsobabyshower.com/
+    intro: >
+      Administrador de Eventos, con gestión de invitaciones, confirmaciones, horarios, regalos via e-mail y whatsapp
+
+    assignments:
+      - title: Baby Shower
+        # optional
+        project_logo: https://pedroalonsobabyshower.com/images/pagina-principal.png
+        link: "https://pedroalonsobabyshower.com"
+        tagline: "Sistema Responsivo de Administracion de Eventos"
+
+      - title: https://taxiamb.cl/
+        # optional
+        project_logo: https://taxiamb.cl/static/TaxiAMB.png
+        link: "https://taxiamb.cl"
+        tagline: "Sistema Responsivo de Administración de servicios de taxi para el Aeropuerto Arturo Merino Benitez de Santiago Taxi Oficial"
+
+      - title: https://consultorerp.cl/
+        # optional
+        project_logo: https://consultorerp.cl/static/img/logo.png
+        link: "https://consultorerp.cl/"
+        tagline: "Sistema Responsivo de Administracion de Clientes, CRM plataforma automatizada de gestion de clientes con envio de cotizaciones por e-mail, gestión de proyectos"
+
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 98%
+
+      - name: JavaScript 
+        level: 98%
+
+      - name: SQL
+        level: 98%
+
+       - name: DAX
+        level: 98%     
+
+      - name: HTML5 & CSS
+        level: 95%
