@@ -109,7 +109,6 @@ projects: https://pedroalonsobabyshower.com/
         link: "https://consultorerp.cl/"
         tagline: "Sistema Responsivo de Administracion de Clientes, CRM plataforma automatizada de gestion de clientes con envio de cotizaciones por e-mail, gestión de proyectos"
 
-
 skills:
     toolset:
       - name: Python & Flask
